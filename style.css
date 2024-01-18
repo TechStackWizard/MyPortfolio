@@ -55,6 +55,7 @@ section {
     cursor: default;
 }
 
+
 .navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -62,7 +63,7 @@ section {
 }
 
 .navbar a:hover,
-.navbar a.active {
+.navbar a .active {
     color: var(--main-color);
 }
 
@@ -368,8 +369,11 @@ span {
     html {
         font-size: 55%;
     }
+    .header {
+        padding: 2rem 4%;
+    }
     section {
-        padding: 10rem 3% 5rem;
+        padding: 10rem 4% 5rem;
     }
     .footer {
         padding: 2rem 3%;
@@ -377,7 +381,8 @@ span {
     }
 }
 
-@media (max-width : 776px){
+@media (max-width : 677px){
+    
     #menu-icon{
         display: block;
         font-size: 2rem;
@@ -394,7 +399,7 @@ span {
     }
     .navbar a {
         display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
+        font-size: 1.6rem;
+        margin: 2.5rem 0;
     }
 }
